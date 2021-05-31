@@ -1,0 +1,409 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  .all{
+      width: 100%;
+      height: 966px;
+  }
+  .block{
+      width: 60%;
+      height: 100%;
+      margin-left: 20%;
+  }
+  .box1{
+      width: 100%;
+      height: 30%;
+      background-color: rgb(106, 39, 214);
+      margin-top: 8%;
+      padding: 20px;
+      border-radius: 15px;
+  }
+  .box2{
+      width: 100%;
+      height: 10%;
+  }
+  .buttons{
+      height: 100%;
+      width: 20%;
+      margin-left: 40%;
+      display: flex;
+  
+  }
+  .edit, .style{
+      height: 80%;
+      width: 45%;
+      border-radius: 10%;
+      margin: 2.5%;
+      margin-top: 5%;
+      color: white;
+      font-size: 16px;
+  }
+  .edit{
+      background-color: rgb(11, 182, 159);
+  }
+  .style{
+      background-color: rgb(55, 127, 221);
+  }
+  .box3{
+      width: 100%;
+      height: 45%;
+      background-color: rgb(106, 39, 214);
+      padding-top: 0.2%;
+      border-radius: 15px;
+  }
+  .area{
+      display: none;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      margin-top: 20px;
+      display: flex;
+      width: 80%;
+      height: 200px;
+      background: white;
+      margin: 30px;
+      background-color: rgb(106, 39, 214);
+  }
+  .box_edit {
+      display: none;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      margin-top: 20px;
+  }
+  
+  .areaText {
+      width: 100%;
+  }
+  
+  textarea {
+      margin-left: 130px;
+  }
+  
+  .buttons2 {
+      margin-left: 15px;
+      display: flex;
+      position: relative;
+      margin-top: 15px;
+  }
+  .add, .save{
+      left: 220px;
+      top:110px;
+      height: 45px;
+      width: 90px;
+      border-radius: 10%;
+      color: white;
+      font-size: 16px;
+      position: absolute;
+      text-decoration: none;
+      user-select: none;
+      outline: none;
+      background-color: rgb(6, 206, 122);
+  }
+  .add{
+      left: 120px;
+      top: 110px;
+      background-color: rgb(205, 2, 224);
+  }
+  .buttons2{
+      height: 15%;
+      width: 90%;
+      margin: 2% auto;
+      display: flex;
+  }
+  .textTask{
+      display: flex;
+  }
+  .textTask2{
+      display: block;
+  }
+  .styleBox{
+      height: 95%;
+      display: flex;
+  }
+  .see,.notSee{
+      width: 50%;
+  }
+  .box_edit {
+      display: none;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      margin-top: 20px;
+  }
+  
+  .areaText {
+      width: 100%;
+      background-color: rgb(106, 39, 214);
+  }
+  
+  textarea {
+      margin-left: 130px;
+  }
+  .notSee{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .fontSize{
+      width: 100%;
+      height: 25%;
+      padding: 2%;
+      font-size: 18px;
+      color: white;
+  }
+  .boxFontSize{
+      width: 100%;
+      height: 70%;
+      margin-top: 10px;
+      display: flex;
+      color: white;
+  }
+  .checkFontSize{
+      width: 100%;
+      height: 30px;
+      margin-top: 15px;
+      color: white;
+  }
+  .fontFamily{
+      width: 100%;
+      height: 25%;
+      padding: 2%;
+      font-size: 18px;
+      color: white;
+  }
+  .fF2{
+      width: 60%;
+      height: 40px;
+      margin-top: 10px;
+  }
+  .fonts{
+      width: 100%;
+      height: 100%;
+  }
+  .colors{
+      width: 100%;
+      height: 25%;
+      padding: 2%;
+      font-size: 18px;
+      color: white;
+  }
+  .colors2{
+      width: 80%;
+      height: 85%;
+      margin-top: 10px;
+  }
+  .colorButtons{
+      height: 60px;
+      display: flex;
+      padding-right: 10px;
+  }
+  .buttonColor, .buttonBackground{
+      width: 100%;
+      height: 40px;
+      background-color: rgb(211, 200, 250);
+      border-radius: 10px;
+  }
+  .styleText{
+      width: 100%;
+      height: 25%;
+      padding: 2%;
+      font-size: 18px;
+      color: white;
+  }
+  .checkboxText{
+      width: 100%;
+      height: 40%;
+      margin-top: 10px;
+      color: white;
+      margin-right: 15px;
+  }
+  .boxColor , .boxBackground{
+      display: none;
+      flex-wrap: wrap;
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      outline: 3px solid rgb(191, 156, 248);
+  }
+  .orange, .skyblue, .mediumvioletred, .gold, .rebeccapurple, .mediumaquamarine, .mediumblue, .greenyellow, .magenta, .red,  .orange, .gold, .greenyellow, .skyblue, .mediumblue, .rebeccapurple, .magenta, .mediumvioletred{
+      width: 100px;
+      height: 100px;
+  }
+  .orange{
+      background: orange;
+  }
+  .skyblue{
+      background: skyblue;
+  }
+  .mediumvioletred{
+      background: mediumvioletred;
+  }
+  .gold{
+      background: gold;
+  }
+  .rebeccapurple{
+      background: rebeccapurple;
+  }
+  .mediumaquamarine{
+      background: mediumaquamarine;
+  }
+  .mediumblue{
+      background: mediumblue;
+  }
+  .greenyellow{
+      background: greenyellow;
+  }
+  .magenta{
+      background: magenta;
+  }
+  .red{
+      background:red;
+  }
+  .orange{
+      background:orange;
+  }
+  .gold{
+      background: gold;
+  }
+  .greenyellow{
+      background: greenyellow;
+  }
+  .skyblue{
+      background: skyblue;
+  }
+  .mediumblue{
+      background: mediumblue;
+  }
+  .rebeccapurple{
+      background: rebeccapurple;
+  }
+  .magenta{
+      background:magenta;
+  }
+  .mediumvioletred{
+      background:mediumvioletred;
+  }
+  
+  .greenBox{
+      width: 60%;
+      height: 400px;
+      background-color: rgb(29, 218, 114);
+      margin-top: 10px;
+      margin-left: 20%;
+      padding: 20px;
+      border-radius: 15px;
+  }
+  .tableCheck{
+      height: 20px;
+      margin-top: 10px;
+  }
+  .tableBox{
+      height: 320px;
+      display: flex;
+  }
+  .tableBox1{
+      width: 24%;
+  }
+  .cTR{
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  .addTable, .createTable{
+      margin-bottom: 15px;
+  }
+  .addTable{
+      font-size: 18px;
+      margin-top: 15px;
+  }
+  .createTable, .createList{
+      font-size: 16px;
+      margin-top: 5px;
+      background-color:  rgb(106, 39, 214);
+      height: 35px;
+      width: 60%;
+      border-radius: 10%;
+      color:white;
+  }
+  .tableBox2{
+      width: 76%;
+  }
+  .inputTR, .inputTD, .wOfTD, .hOfTD, .inputWidth{
+      height: 28px;
+      margin-bottom: 12px;
+  }
+  .inputTR, .inputTD{
+      width: 100%;
+      margin-top: 16px;
+  }
+  .inputTD{
+      margin-top: 0px;
+  }
+  .wOfTD{
+      width: 100%;
+      margin-top: 33px;
+  }
+  .hOfTD{
+      width: 100%;
+      margin-top: 0px;
+  }
+  .inputWidth{
+      width: 20%;
+  }
+  .border{
+      width: 100%;
+      height: 50px;
+      display:flex;
+  }
+  .border1, .border2, .border3, .border4, .border5{
+      width: 20%;
+      height: 100%;
+  }
+  .border2, .border4{
+      padding-top: 7px;
+  }
+  .inputWidth, .solid, .black{
+      width: 90%;
+      height: 28px;
+  }
+  .inputWidth{
+      margin-bottom: 5px;
+  }
+  .listFon{
+      height: 320px;
+      display: flex;
+  }
+  .listFon1{
+      width: 24%;
+  }
+  .cL{
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  .createTable, .createList{
+      font-size: 16px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      background-color: rgb(106, 39, 214);
+      height: 35px;
+      width: 60%;
+      border-radius: 10%;
+      color:white;
+  }
+  .inputLi{
+      width: 100%;
+      height: 30px;
+      margin-top: 16px;
+      margin-bottom: 12px;
+  }
+  .listFon2{
+      width: 76%;
+  }
+  .border{
+      height: 100%;
+  }
+  .circle{
+      width: 100%;
+      height: 30px;
+  }
